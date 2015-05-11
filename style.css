@@ -99,8 +99,18 @@ html{
   	margin-bottom: 1rem;
   	border-radius: 5px;
 }
+.reset{
+  font-family: monospace !important;
+  text-align: center;
+}
+.reset:hover{
+  cursor: pointer;
+}
 .spanItem{
 	margin:0 1rem;
+}
+.fa{
+  cursor:pointer;
 }
 .fa-check{
 	color:yellow;

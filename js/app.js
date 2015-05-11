@@ -17,4 +17,7 @@ $(document).ready(function(){
 	$(document).on('click', '.fa-times', function() {
     $(this).parent().remove();
   });
+  $('.reset').click(function(){
+    $('#items ul').children().remove();
+  });
 });
