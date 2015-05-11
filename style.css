@@ -29,7 +29,7 @@ html{
 	/*background:#7CC140;*/
 	background:url('images/bg.jpg') no-repeat center center fixed;
 	background-size:cover;
-	font-family: MyGirl,cursive;
+	font-family: monospace;
 }
 .logo img{
 	width: 35%;
@@ -48,7 +48,7 @@ html{
   	transform:skewX(15deg);
 }
 .heplText{
-	font-family: "MyGirl",cursive;
+	font-family: monospace;
 	letter-spacing: 2px;
   	word-spacing: 5px;
   	font-size: 2rem;
