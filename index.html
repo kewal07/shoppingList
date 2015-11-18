@@ -35,18 +35,6 @@
 					<img src="images/cart.png" alt="Shopping Cart">
 				</div>
 			</div>
-			<div class="askbypoll-embed-poll" id="askbypoll-embed-poll---66"></div>
-			<script>
-			$(document).ready(function(){
-				$(".askbypoll-embed-poll").each(function(index){
-					var pollId = $(this).attr('id').split('---')[1];
-					var jsonp_url = "http://localhost:8000/embed-poll?callback=?";
-					$.getJSON(jsonp_url, function(data) {
-					  $(this).html(data.html);
-					});
-				});
-			});
-			</script>
 		</section>
 	</body>
 </html>
